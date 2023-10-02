@@ -6,7 +6,7 @@ import * as apigateway from "aws-cdk-lib/aws-apigateway";
 import { Runtime, FunctionUrlAuthType, Code, FunctionUrl } from 'aws-cdk-lib/aws-lambda';
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { Construct } from 'constructs';
-import path = require('path');
+import * as path from 'path';
 
 // TODO add validation here. We should check if these values exists. Theres a cool project theo talked about that can help wtih this. checkout later
 

@@ -2,28 +2,41 @@
   "name": "simple-next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "optimize": "npx ts-node content/optimize ",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch",
+    "test:ci": "jest --ci",
+    "cdk": "cdk"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
+    "@testing-library/jest-dom": "^6.1.3",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "aos": "^3.0.0-beta.6",
     "next": "^13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "server-only": "^0.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@types/aos": "^3.0.4",
+    "@types/jest": "^29.5.5",
     "autoprefixer": "^10.4.14",
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "ts-jest": "^29.1.1"
   }
 }

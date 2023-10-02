@@ -1,0 +1,301 @@
+{
+    "moonPhases": [
+        {
+            "name": "Waxing Crescent",
+            "rituals": {
+                "summary": "Best for: Taking initial steps towards the goals set during the New Moon. Focus on building, growth, and laying down roots.",
+                "tasks": [
+                    {
+                        "description": "1. Candle Ritual: Light a green or white candle to symbolize growth and vitality. As you light the candle, set your intentions for the lunar cycle ahead."
+                    },
+                    {
+                        "description": "2. Sigil Creation: Craft a sigil that represents your most important goal or desire for this moon phase. Meditate on it and charge it with your energy."
+                    },
+                    {
+                        "description": "3. Spell Jar: Create a spell jar filled with herbs, crystals, and symbols of growth and new beginnings."
+                    },
+                    {
+                        "description": "4. Moon Bath: Take a moonlight bath to cleanse and rejuvenate your energy. Add a few drops of lavender essential oil to the water for relaxation."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write about the new beginnings you are embarking on and your plans for growth and success."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your waxing crescent moon rituals:",
+                "products": [
+                    "Green Candle",
+                    "White Candle",
+                    "Journal",
+                    "Herbs",
+                    "Crystals",
+                    "Lavender Essential Oil"
+                ]
+            }
+        },
+        {
+            "name": "Waning Gibbous",
+            "rituals": {
+                "summary": "Best for: Releasing negative energies and obstacles.",
+                "tasks": [
+                    {
+                        "description": "1. Sigil for Release: Create a sigil representing what you wish to release from your life. Charge it with intention and burn it during this phase to let go of negative energies."
+                    },
+                    {
+                        "description": "2. Candle Banishment Spell: Light a black candle and visualize any obstacles or negativity dissipating as the candle burns."
+                    },
+                    {
+                        "description": "3. Protection Amulet: Craft a protective amulet using black tourmaline and carry it with you for added safety."
+                    },
+                    {
+                        "description": "4. Herbal Bath: Take a purifying herbal bath with ingredients like rosemary, sage, and lavender to cleanse your aura."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Reflect on what you want to release in your life and write down steps to achieve it."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your waning gibbous moon rituals:",
+                "products": [
+                    "Black Candle",
+                    "Black Tourmaline",
+                    "Rosemary",
+                    "Sage",
+                    "Lavender",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "Last Quarter",
+            "rituals": {
+                "summary": "Best for: Embracing inner self and confronting fears.",
+                "tasks": [
+                    {
+                        "description": "1. Shadow Work Ritual: Embrace your inner self by meditating on your fears and insecurities. Confront and heal them during this phase."
+                    },
+                    {
+                        "description": "2. Candle Magic for Letting Go: Light a gray candle and write down what you want to release. Burn the paper, visualizing the energy leaving your life."
+                    },
+                    {
+                        "description": "3. Crystal Cleansing: Place your crystals under running water or bury them in the earth to cleanse and recharge them."
+                    },
+                    {
+                        "description": "4. Protection Spell Jar: Create a protection spell jar with ingredients like salt, rosemary, and a small piece of obsidian."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write about the challenges you've faced recently and how you can learn from them."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your last quarter moon rituals:",
+                "products": [
+                    "Gray Candle",
+                    "Iron",
+                    "Salt",
+                    "Obsidian",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "Waning Crescent",
+            "rituals": {
+                "summary": "Best for: Spiritual detox and banishing negativity.",
+                "tasks": [
+                    {
+                        "description": "1. Spiritual Detox: Dedicate this phase to a digital detox. Unplug from screens and spend time in nature or with a good book."
+                    },
+                    {
+                        "description": "2. Banishing Negativity Spell: Write negative thoughts on a piece of paper, then burn it and bury the ashes to symbolize their departure."
+                    },
+                    {
+                        "description": "3. Herbal Dream Pillow: Sew a small pillow filled with herbs like lavender and chamomile for peaceful sleep and dream recall."
+                    },
+                    {
+                        "description": "4. Purification Bath: Take a purifying bath with Epsom salt, rose petals, and frankincense oil to cleanse your energy."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Reflect on the things in your life that bring you joy and write about them."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your waning crescent moon rituals:",
+                "products": [
+                    "Lavender",
+                    "Chamomile",
+                    "Epsom Salt",
+                    "Frankincense Oil",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "New Moon",
+            "rituals": {
+                "summary": "Best for: Setting intentions and new beginnings.",
+                "tasks": [
+                    {
+                        "description": "1. New Moon Manifestation Ritual: Set intentions for the lunar cycle ahead. Write your goals and desires on a piece of paper, then burn it to release them to the universe."
+                    },
+                    {
+                        "description": "2. Sigil for New Beginnings: Create a sigil representing your new goals and dreams. Charge it with energy and hang it where you can see it daily."
+                    },
+                    {
+                        "description": "3. Herbal Tea Ceremony: Brew a cup of herbal tea, infusing it with your intentions for the month ahead."
+                    },
+                    {
+                        "description": "4. Moon Water Infusion: Leave a jar of water under the new moon to charge it with fresh energy for cleansing and blessing."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write a letter to yourself, envisioning your future self having achieved your goals."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your new moon rituals:",
+                "products": [
+                    "White Candle",
+                    "Herbal Tea",
+                    "Moon Water",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "Waxing Crescent",
+            "rituals": {
+                "summary": "Best for: Invoking positive energy and blessings.",
+                "tasks": [
+                    {
+                        "description": "1. Candle Blessing Ritual: Light a white or silver candle to invoke positive energy and blessings into your life."
+                    },
+                    {
+                        "description": "2. Crystal Charging: Place your crystals under the moonlight to recharge and amplify their energy."
+                    },
+                    {
+                        "description": "3. Herb Garden Blessing: If you have an herb garden, bless your plants with gratitude and intentions for growth."
+                    },
+                    {
+                        "description": "4. Manifestation Visualization: Meditate on your goals, imagining them coming to fruition."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write about the progress you've made toward your goals and what steps you'll take next."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your waxing crescent moon rituals:",
+                "products": [
+                    "White Candle",
+                    "Silver Candle",
+                    "Crystals",
+                    "Herb Garden",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "First Quarter",
+            "rituals": {
+                "summary": "Best for: Taking action toward your goals and protection.",
+                "tasks": [
+                    {
+                        "description": "1. Action Spell: Light a red candle and write down actions you'll take to achieve your goals. Burn the paper, symbolizing your commitment."
+                    },
+                    {
+                        "description": "2. Protection Charm: Craft a protection charm using a small piece of iron, herbs, and a red ribbon."
+                    },
+                    {
+                        "description": "3. Moon Water Charging: Use moon water to charge your magical tools and crystals for added potency."
+                    },
+                    {
+                        "description": "4. Manifestation Meditation: Meditate on your goals, focusing on how you'll overcome obstacles."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Reflect on the challenges you've faced and how they've pushed you closer to your goals."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your first quarter moon rituals:",
+                "products": [
+                    "Red Candle",
+                    "Iron",
+                    "Herbs",
+                    "Red Ribbon",
+                    "Moon Water",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "Waxing Gibbous",
+            "rituals": {
+                "summary": "Best for: Expressing gratitude and attracting abundance.",
+                "tasks": [
+                    {
+                        "description": "1. Gratitude Ritual: Express gratitude for the progress you've made so far. Write down your achievements and give thanks to the universe."
+                    },
+                    {
+                        "description": "2. Candle Magic for Abundance: Light a green candle to attract abundance and prosperity into your life."
+                    },
+                    {
+                        "description": "3. Herbal Spell Jar: Create a spell jar filled with herbs and symbols representing your goals and aspirations."
+                    },
+                    {
+                        "description": "4. Moon Water Bath: Add moon water to your bath for added energy and blessings."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write about the abundance and prosperity you wish to manifest in your life."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your waxing gibbous moon rituals:",
+                "products": [
+                    "Green Candle",
+                    "Herbs",
+                    "Moon Water",
+                    "Journal"
+                ]
+            }
+        },
+        {
+            "name": "Full Moon",
+            "rituals": {
+                "summary": "Best for: Releasing and healing, connecting with the moon goddess.",
+                "tasks": [
+                    {
+                        "description": "1. Full Moon Release Ceremony: Release any remaining blockages or negative energy by writing them on a paper, then burning it in the light of the full moon."
+                    },
+                    {
+                        "description": "2. Moonlit Crystal Grid: Create a crystal grid under the full moon to amplify your intentions and desires."
+                    },
+                    {
+                        "description": "3. Spellwork for Healing: Perform a healing spell for yourself or others, using the energy of the full moon."
+                    },
+                    {
+                        "description": "4. Moon Goddess Invocation: Connect with the energy of the moon goddess by meditating and calling upon her for guidance."
+                    },
+                    {
+                        "description": "5. Journaling Prompt: Write about the transformative experiences you've had during this lunar cycle."
+                    }
+                ]
+            },
+            "items": {
+                "summary": "Gather the following items for your full moon rituals:",
+                "products": [
+                    "Crystals",
+                    "Herbs",
+                    "Moon Water",
+                    "Journal"
+                ]
+            }
+        }
+    ]
+}

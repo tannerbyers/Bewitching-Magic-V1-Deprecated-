@@ -1,19 +1,27 @@
+import 'server-only'
+
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'Moon Rituals',
+  description: 'Learn moon rituals that change as the moon does.',
 }
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
 
-export default function Home() {
+const getData = (async () => {
+  const res = await fetch('https://peb00t1115.execute-api.us-east-1.amazonaws.com/prod/')
+  return res.json()
+})
+export default async function Home() {
+  const moonPhase = await getData()
   return (
     <>
-      <Hero />
-      <Features />
+      {moonPhase &&
+        <>
+          <Hero />
+          <Features />
+        </>
+      }
     </>
   )
 }

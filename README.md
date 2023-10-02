@@ -1,21 +1,22 @@
 # Free Tailwind landing page template
 
-![Simple TailwindCSS template preview](https://user-images.githubusercontent.com/2683512/231426766-72ae7bcd-618b-4a3e-87cd-b46a464bde61.png)
+![Simple TailwindCSS SPA preview](readme_resources/screenshot.png)
 
-**Simple Light** is a free landing page template built on top of **TailwindCSS** and fully coded in **React** / **Next.js**. Simple light is designed to provide all the basic components a developer need to create a landing page for SaaS products, online services, and more. 
-Use it for whatever you want, and be sure to reach us out on Twitter if you build anything cool/useful with it.
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+Moon Ritual SPA is a single page for moon ritual info built on top of **TailwindCSS** and fully coded in **React** / **Next.js**. 
 
-*Version 1.3.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/tailwind-landing-page-template/releases/tag/1.3.3).*
+borrowed base template with ❤️ from [Cruip.com](https://cruip.com/).
 
-## Live demo
+*Original Version 1.3.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/tailwind-landing-page-template/releases/tag/1.3.3).*
 
-Check the live demo here 👉️ [https://simple.cruip.com/](https://simple.cruip.com/)
+## TO DO when I have time (mostly optimizations)
+- Optimize any images that are in this project based on screen size
+- Setup unit testing components (just copy this implementation: https://github.com/vercel/next.js/tree/canary/examples/with-jest/__tests__)
+- Rate limit and prevent DDOS somehow.. maybe only 20 refreshes (based on IP) before requiring sign in? API gateway is the solution.
+- I should build this project every day at a certain time. This will let the app data be up to date but limit my api calls to RAPID API so one less thing to worry about. This is due to getStaticProps sets the value on build time and currently the automated build only runs when I push code up.
 
-## Simple Pro
 
-[![Simple Pro](https://user-images.githubusercontent.com/2683512/151178282-fd81b300-349a-42c3-a30a-f70f6e711e74.png)](https://cruip.com/)
-
+## API Used
+- Moon Phase API (free if under 1000 calls per month)[Rapid API](ttps://rapidapi.com/MoonAPIcom/api/moon-phase/) 
 ## Design files
 
 If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3HOZMpf
@@ -85,3 +86,10 @@ We're an Italian developer/designer duo creating high-quality design/code resour
 ## Stay in the loop
 
 If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+
+
+### NOTES
+I like aws serverless so backend api will be simple lambda behind api gateway with cloudfront for caching
+
+https://aws.amazon.com/blogs/compute/protecting-an-aws-lambda-function-url-with-amazon-cloudfront-and-lambdaedge/#:~:text=In%20this%20example%2C%20using%20CloudFront,the%20users%3A%20Lambda%40Edge.
+

@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative">
       {/* Illustration behind hero content */}
       <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
+        className="absolute bottom-0 transform -translate-x-1/2 pointer-events-none left-1/2 -z-1"
         aria-hidden="true"
       >
         <svg
@@ -36,20 +36,20 @@ export default function Hero() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         {/* Hero content */}
         <div className="pt-32 md:pt-40 md:pb-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="pb-12 text-center md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
               data-aos="zoom-y-out"
             >
               Waxing Crescent
             </h1>
-            <div className="max-w-3xl mx-auto flex flex-col items-center">
+            <div className="flex flex-col items-center max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-600 mb-8"
+                className="mb-8 text-xl text-gray-600"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
