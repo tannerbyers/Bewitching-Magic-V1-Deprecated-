@@ -1,8 +1,9 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
+import 'server-only'
+
 import Image from "next/image";
 import plantPic from '@/public/images/plant.png'
-export default function Hero() {
+export default function Hero({moonPhase}: any) {
+  console.log({moonPhase})
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
@@ -45,7 +46,7 @@ export default function Hero() {
               className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
               data-aos="zoom-y-out"
             >
-              Waxing Crescent
+              {moonPhase?.name}
             </h1>
             <div className="flex flex-col items-center max-w-3xl mx-auto">
               <p
@@ -53,9 +54,7 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                <b>Best for:</b> Taking initial steps towards the goals set
-                during the New Moon. Focus on building, growth, and laying down
-                roots.
+                {moonPhase.rituals.summary}
               </p>
                 <Image
                   src={plantPic}
