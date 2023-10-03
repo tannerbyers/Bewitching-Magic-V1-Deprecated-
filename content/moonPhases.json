@@ -2,6 +2,7 @@
     "moonPhases": [
         {
             "name": "Waxing Crescent",
+            "emoji": "🌒",
             "rituals": {
                 "summary": "Best for: Taking initial steps towards the goals set during the New Moon. Focus on building, growth, and laying down roots.",
                 "tasks": [
@@ -36,6 +37,7 @@
         },
         {
             "name": "Waning Gibbous",
+            "emoji": "🌔",
             "rituals": {
                 "summary": "Best for: Releasing negative energies and obstacles.",
                 "tasks": [
@@ -70,6 +72,7 @@
         },
         {
             "name": "Last Quarter",
+            "emoji": "🌗",
             "rituals": {
                 "summary": "Best for: Embracing inner self and confronting fears.",
                 "tasks": [
@@ -103,6 +106,7 @@
         },
         {
             "name": "Waning Crescent",
+            "emoji": "🌒",
             "rituals": {
                 "summary": "Best for: Spiritual detox and banishing negativity.",
                 "tasks": [
@@ -136,6 +140,7 @@
         },
         {
             "name": "New Moon",
+            "emoji": "🌑",
             "rituals": {
                 "summary": "Best for: Setting intentions and new beginnings.",
                 "tasks": [
@@ -168,6 +173,7 @@
         },
         {
             "name": "Waxing Crescent",
+            "emoji": "🌒",
             "rituals": {
                 "summary": "Best for: Invoking positive energy and blessings.",
                 "tasks": [
@@ -201,6 +207,7 @@
         },
         {
             "name": "First Quarter",
+            "emoji": "🌓",
             "rituals": {
                 "summary": "Best for: Taking action toward your goals and protection.",
                 "tasks": [
@@ -235,6 +242,7 @@
         },
         {
             "name": "Waxing Gibbous",
+            "emoji": "🌔",
             "rituals": {
                 "summary": "Best for: Expressing gratitude and attracting abundance.",
                 "tasks": [
@@ -267,6 +275,7 @@
         },
         {
             "name": "Full Moon",
+            "emoji": "🌕",
             "rituals": {
                 "summary": "Best for: Releasing and healing, connecting with the moon goddess.",
                 "tasks": [

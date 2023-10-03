@@ -1,34 +1,52 @@
-'use client'
+'server-only'
 
-import { useEffect } from 'react'
+import { Suspense, useEffect } from 'react'
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import fsPromises from 'fs/promises';
+import path from 'path'
 
 import Footer from '@/components/ui/footer'
 import './css/style.css'
-export default function DefaultLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+import Header from '@/components/ui/header'
+import Home from './(default)/page';
+import Loading from './(default)/loading';
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      disable: 'phone',
-      duration: 700,
-      easing: 'ease-out-cubic',
-    })
-  })
+const getMoonPhase = (async () => {
+  const res = await fetch('https://peb00t1115.execute-api.us-east-1.amazonaws.com/prod/')
+  return res.json()
+})
+
+const getMoonPhaseData = (async (currentMoonPhase: string) => {
+  // Get the path of the json file
+  const filePath = path.join(process.cwd(), 'content/moonPhases.json');
+  // Read the json file
+  const jsonData = await fsPromises.readFile(filePath);
+  // Parse data as json
+  const objectData = JSON.parse(jsonData.toString());
+
+  // todo
+  // we'll filter it here but it really I should just get it by the object key and not store as array. 
+  const filteredMoonPhase = objectData.moonPhases.filter((moonPhase: { name: string }) => moonPhase.name == currentMoonPhase)
+  return filteredMoonPhase[0]
+})
+
+
+export default async function DefaultLayout() {
+
+  const currentMoonPhase = await getMoonPhase()
+  const moonRitualData = await getMoonPhaseData(currentMoonPhase)
 
   return (
     <html>
       <body>
-        <main className="grow">
-          {children}
-        </main>
-        <Footer />
+          <Suspense fallback={<Loading/>}>
+            <Header moonRitual={moonRitualData} />
+            <main className="grow">
+              <Home moonRitual={moonRitualData} />
+            </main>
+            <Footer />
+          </Suspense>
+        
       </body>
     </html>
   )

@@ -1,9 +1,7 @@
-import 'server-only'
 
 import Image from "next/image";
 import plantPic from '@/public/images/plant.png'
-export default function Hero({moonPhase}: any) {
-  console.log({moonPhase})
+export default function Hero({moonRitual}: any) {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
@@ -44,17 +42,14 @@ export default function Hero({moonPhase}: any) {
           <div className="pb-12 text-center md:pb-16">
             <h1
               className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
-              data-aos="zoom-y-out"
             >
-              {moonPhase?.name}
+              {moonRitual.name}
             </h1>
             <div className="flex flex-col items-center max-w-3xl mx-auto">
               <p
                 className="mb-8 text-xl text-gray-600"
-                data-aos="zoom-y-out"
-                data-aos-delay="150"
               >
-                {moonPhase.rituals.summary}
+                {moonRitual.rituals.summary}
               </p>
                 <Image
                   src={plantPic}

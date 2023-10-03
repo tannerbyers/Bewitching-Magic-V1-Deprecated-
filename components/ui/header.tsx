@@ -2,13 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-import Link from "next/link";
-import Logo from "@/public/images/waxing-moon.png";
-import Dropdown from "@/components/utils/dropdown";
-import MobileMenu from "./mobile-menu";
-import Image from "next/image";
-
-export default function Header() {
+export default function Header({moonRitual}: any) {
   const [top, setTop] = useState<boolean>(true);
 
   // detect whether user has scrolled the page down by 10px
@@ -28,18 +22,13 @@ export default function Header() {
         !top ? "bg-white backdrop-blur-sm shadow-lg" : ""
       }`}
     >
-      <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <div className="max-w-6xl px-5 mx-auto sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
-            <Image
-              src={Logo}
-              width={50}
-              height={50}
-              alt="sketch icon of a waxing crescent"
-            />{" "}
+          <div className="mr-4 shrink-0">
+          <span className="text-4xl" >{moonRitual.emoji}</span>
           </div>
-          {!top && <h3 className="h3">Waxing Crescent</h3>}
+          <h3 className="h3">{moonRitual.name}</h3>
         </div>
       </div>
     </header>

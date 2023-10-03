@@ -27,8 +27,6 @@ fs.readFile(moonPhaseFilePath, 'utf8', (err, data) => {
     // Parse the JSON data into a JavaScript object
     const jsonObject: JsonObject = JSON.parse(data);
 
-    console.log(JSON.stringify({ parsedData: jsonObject }));
-
     // Now you can access the data as a regular JavaScript object
   } catch (parseError) {
     console.error(`Error parsing JSON: ${parseError}`);
@@ -48,8 +46,6 @@ fs.readFile(itemsFilePath, 'utf8', (err, data) => {
   try {
     // Parse the JSON data into a JavaScript object
     const jsonObject: InputData = JSON.parse(data);
-
-    console.log(JSON.stringify({ parsedData: jsonObject }));
 
     const dedupedItemsData = removeDuplicatesFromItems(jsonObject);
 

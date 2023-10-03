@@ -13,6 +13,9 @@ borrowed base template with ❤️ from [Cruip.com](https://cruip.com/).
 - Setup unit testing components (just copy this implementation: https://github.com/vercel/next.js/tree/canary/examples/with-jest/__tests__)
 - Rate limit and prevent DDOS somehow.. maybe only 20 refreshes (based on IP) before requiring sign in? API gateway is the solution.
 - I should build this project every day at a certain time. This will let the app data be up to date but limit my api calls to RAPID API so one less thing to worry about. This is due to getStaticProps sets the value on build time and currently the automated build only runs when I push code up.
+- I need to update the products with links and use the items.json. 
+- I need to update the moon phase emoji with correct moon phase emoji
+- I need to update the images with unique images each month
 
 
 ## API Used

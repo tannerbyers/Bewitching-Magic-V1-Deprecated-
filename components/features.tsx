@@ -1,6 +1,6 @@
 "use client";
 
-export default function Features({moonPhase}: any) {
+export default function Features({moonRitual}: any) {
 
   return (
     <section className="relative">
@@ -12,7 +12,7 @@ export default function Features({moonPhase}: any) {
             {/* Rituals */}
             <div
               className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6"
-              data-aos="fade-right"
+              
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">Rituals</h3>
@@ -22,7 +22,7 @@ export default function Features({moonPhase}: any) {
               </div>
               <div className="mb-8 md:mb-0">
                 { 
-                   moonPhase.rituals.tasks.map((ritual: any) => {
+                   moonRitual?.rituals.tasks.map((ritual: any) => {
                     return (<div className="flex items-center p-5 mb-3 text-lg transition duration-300 ease-in-out bg-white border border-gray-200 rounded shadow-md hover:shadow-lg">
                     <div className="mb-1 font-bold leading-snug tracking-tight">
                       {ritual.description}
@@ -35,7 +35,7 @@ export default function Features({moonPhase}: any) {
             {/* Items */}
             <div
               className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6"
-              data-aos="fade-right"
+              
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">Items</h3>
@@ -50,7 +50,7 @@ export default function Features({moonPhase}: any) {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
               { 
-                   moonPhase.items.products.map((ritual: any) => {
+                   moonRitual?.items.products.map((ritual: any) => {
                     return (<div className="flex items-center p-5 mb-3 text-lg transition duration-300 ease-in-out bg-white border border-gray-200 rounded shadow-md hover:shadow-lg">
                     <div className="mb-1 font-bold leading-snug tracking-tight">
                       {ritual}

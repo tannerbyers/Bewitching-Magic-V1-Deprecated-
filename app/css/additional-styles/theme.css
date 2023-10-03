@@ -91,13 +91,6 @@ html {
     transform: translateZ(0);
 }
 
-/* Custom AOS animations */
-[data-aos="zoom-y-out"] {
-  transform: scaleX(1.03);
-  opacity: 0;
-  transition-property: transform, opacity;
-}
-
 @media screen {
     html:not(.no-js) body [data-aos=fade-up] {
         -webkit-transform: translate3d(0, 10px, 0);
