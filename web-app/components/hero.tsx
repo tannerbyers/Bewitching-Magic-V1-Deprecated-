@@ -43,13 +43,13 @@ export default function Hero({ moonRitual }: any) {
             <h1
               className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
             >
-              {moonRitual.name}
+              {moonRitual?.name || "No moon rituals currently saved! "}
             </h1>
             <div className="flex flex-col items-center max-w-3xl mx-auto">
               <p
                 className="mb-8 text-xl text-gray-600"
               >
-                {moonRitual.rituals.summary}
+                {moonRitual?.rituals.summary}
               </p>
               <Image
                 src={plantPic}
