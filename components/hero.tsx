@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import plantPic from '@/public/images/plant.png'
-export default function Hero({moonRitual}: any) {
+export default function Hero({ moonRitual }: any) {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
@@ -51,12 +51,12 @@ export default function Hero({moonRitual}: any) {
               >
                 {moonRitual.rituals.summary}
               </p>
-                <Image
-                  src={plantPic}
-                  width={250}
-                  height={250}
-                  alt="sketch icon of a plant"
-                />{" "}
+              <Image
+                src={plantPic}
+                width={250}
+                height={250}
+                alt="sketch icon of a plant"
+              />{" "}
             </div>
           </div>
         </div>

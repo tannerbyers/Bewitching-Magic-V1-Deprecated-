@@ -10,6 +10,7 @@ import './css/style.css'
 import Header from '@/components/ui/header'
 import Home from './(default)/page';
 import Loading from './(default)/loading';
+import Banner from '@/components/banner';
 
 const getMoonPhase = (async () => {
   const res = await fetch('https://peb00t1115.execute-api.us-east-1.amazonaws.com/prod/')
@@ -41,6 +42,7 @@ export default async function DefaultLayout() {
       <body>
           <Suspense fallback={<Loading/>}>
             <Header moonRitual={moonRitualData} />
+            <Banner/>
             <main className="grow">
               <Home moonRitual={moonRitualData} />
             </main>
