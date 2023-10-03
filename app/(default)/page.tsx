@@ -4,8 +4,8 @@ import fsPromises from 'fs/promises';
 import path from 'path'
 
 export const metadata = {
-  title: 'Moon Rituals',
-  description: 'Learn moon rituals that change as the moon does.',
+  title: 'Bewitching Magic',
+  description: 'Learn wonderful magic rituals and spells to bring more joy into your life..',
 }
 
 import Hero from '@/components/hero'

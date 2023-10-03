@@ -28,7 +28,7 @@ export default function Header({moonRitual}: any) {
           <div className="mr-4 shrink-0">
           <span className="text-4xl" >{moonRitual.emoji}</span>
           </div>
-          <h3 className="h3">{moonRitual.name}</h3>
+          <h3 className="h3">✨ Bewitching Magic ✨</h3>
         </div>
       </div>
     </header>

@@ -16,3 +16,18 @@
     }
 }
 
+@font-face {
+    font-family: 'Black Chancery';
+    src: url('/fonts/BLKCHCRY.TTF');
+   }
+
+   @font-face {
+    font-family: 'Catull';
+    src: url('/fonts/catull.ttf');
+   }
+
+
+      /* In your css file where you want to use the font */
+* { 
+    font-family: 'Catull';
+   }

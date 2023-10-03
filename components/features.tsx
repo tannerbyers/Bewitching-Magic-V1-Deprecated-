@@ -17,7 +17,7 @@ export default function Features({moonRitual}: any) {
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">Rituals</h3>
                 <p className="text-xl text-gray-600">
-                  Discover the magic of Moon Rituals. Dive into the cosmic realm and harness lunar energy for personal growth and transformation. Set intentions, meditate, and align with the moon's phases. Embrace this ancient practice today.
+                  Discover the magic of Magic Rituals. Dive into the cosmic realm and harness lunar energy for personal growth and transformation. Set intentions, meditate, and align with the moon's phases. Embrace this ancient practice today.
                 </p>
               </div>
               <div className="mb-8 md:mb-0">
