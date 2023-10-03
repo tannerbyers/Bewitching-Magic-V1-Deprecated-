@@ -1,6 +1,7 @@
 'server-only'
 
-import { Suspense, useEffect } from 'react'
+import { Suspense } from 'react'
+import localFont from 'next/font/local'
 
 import fsPromises from 'fs/promises';
 import path from 'path'
