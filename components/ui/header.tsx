@@ -26,7 +26,7 @@ export default function Header({moonRitual}: any) {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="mr-4 shrink-0">
-          <span className="text-4xl" >{moonRitual.emoji}</span>
+          <span className="text-4xl" >{moonRitual?.emoji}</span>
           </div>
           <h3 className="h3">✨ Bewitching Magic ✨</h3>
         </div>

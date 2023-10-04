@@ -51,12 +51,7 @@ export default function Hero({ moonRitual }: any) {
               >
                 {moonRitual?.rituals.summary}
               </p>
-              <Image
-                src={plantPic}
-                width={250}
-                height={250}
-                alt="sketch icon of a plant"
-              />{" "}
+              <span className="text-8xl" >{moonRitual?.emoji}</span>
             </div>
           </div>
         </div>

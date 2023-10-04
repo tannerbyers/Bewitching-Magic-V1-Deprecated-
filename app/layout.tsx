@@ -1,6 +1,5 @@
 'server-only'
 
-import { Suspense } from 'react'
 import localFont from 'next/font/local'
 
 import fsPromises from 'fs/promises';
@@ -10,7 +9,6 @@ import Footer from '@/components/ui/footer'
 import './css/style.css'
 import Header from '@/components/ui/header'
 import Home from './(default)/page';
-import Loading from './(default)/loading';
 import Banner from '@/components/banner';
 
 const getMoonPhase = (async () => {
@@ -41,15 +39,12 @@ export default async function DefaultLayout() {
   return (
     <html>
       <body>
-          <Suspense fallback={<Loading/>}>
             <Header moonRitual={moonRitualData} />
             <Banner/>
             <main className="grow">
               <Home moonRitual={moonRitualData} />
             </main>
-            <Footer />
-          </Suspense>
-        
+            <Footer />        
       </body>
     </html>
   )
